@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
+    <title>Excalidraw</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="root">
+        <div id="top" class=" m-2 d-flex justify-content-between align-content-center">
+            <!-- menu -->
+            <div class="menu">
+                <button class="rounded border-0 px-2 py-1 fs-4">
+                    <i class="fa-solid fa-bars" style="color: #828288;"></i>
+                </button>
+            </div>
+
+            <!-- toolbar options -->
+            <div class="options">
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-lock" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-regular fa-hand" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-arrow-pointer" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-regular fa-square" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-diamond" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-regular fa-circle" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-arrow-right" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-pencil" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-a" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-eraser" style="color: #828288;"></i>
+                </button>
+            </div>
+
+            <!-- user details -->
+            <div class="profile-section">
+                <button class="rounded border-0 px-2 fs-4 btn ">
+                    <i class="fa-solid fa-user-group" style="color: #828288;"></i>
+                </button>
+                <button class="rounded border-0 p-2  fs-4">
+                    <span><i class="fa-solid fa-book-open" style="color: #828288;"></i></span>
+                    Library
+                </button>
+            </div>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div id="bottom">
+            <div class="options">
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-arrow-rotate-left" style="color: #828288;"></i>
+                </button>    
+                <button class="rounded border-0 px-2 fs-4">
+                    <i class="fa-solid fa-arrow-rotate-right" style="color: #828288;"></i>
+                </button> 
+                    
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- js file -->
+    <script src="index.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
